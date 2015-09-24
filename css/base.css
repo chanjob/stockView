@@ -64,4 +64,13 @@ body {font: 400 12px 'Open Sans',HelveticaNeue,Helvetica,Arial;background: url("
 }
 
 
-.main{ position: relative;}
+.main{ position: relative; padding-left: 0;padding-right: 0; margin-left: 200px; width: 100%;}
+.area-top{background: #ECECEC;box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.07);
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    width: 100%;
+    padding: 0px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 15px;}

@@ -26,7 +26,25 @@
       <file leaf-file-name="stock.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="59" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.5381166" vertical-offset="600" max-vertical-offset="1395">
+            <state line="67" column="38" selection-start="2580" selection-end="2580" vertical-scroll-proportion="0.3690476" vertical-offset="850" max-vertical-offset="1665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="14" selection-start="1678" selection-end="1681" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="1215">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockui.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/stockui.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -46,18 +64,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/index副本.html" />
         <option value="$PROJECT_DIR$/js/stockui.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/stock.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
-    <option name="y" value="82" />
+    <option name="x" value="23" />
+    <option name="y" value="147" />
     <option name="width" value="991" />
     <option name="height" value="580" />
   </component>
@@ -173,7 +191,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="82" width="991" height="580" extended-state="0" />
+    <frame x="23" y="147" width="991" height="580" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -235,23 +253,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stockui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="50" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.35106382" vertical-offset="450" max-vertical-offset="1080">
+        <state line="49" column="14" selection-start="1678" selection-end="1681" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="19" selection-start="1971" selection-end="2011" vertical-scroll-proportion="-16.708334" vertical-offset="394" max-vertical-offset="1080">
+        <state line="80" column="24" selection-start="3085" selection-end="3085" vertical-scroll-proportion="0.93273544" vertical-offset="784" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="59" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.5381166" vertical-offset="600" max-vertical-offset="1395">
+        <state line="67" column="38" selection-start="2580" selection-end="2580" vertical-scroll-proportion="0.3690476" vertical-offset="850" max-vertical-offset="1665">
           <folding />
         </state>
       </provider>
