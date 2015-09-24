@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap-table.css" rel="stylesheet">
+	<script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap-table.js"></script>
+	<!--<script src="js/base.js"></script>-->
+    <script src="js/action.js"></script>
+	<script src="js/ui.js"></script>
+</head>
+<body>
+<div id="show">
+	<div class="addbox">
+		<input type="text" class="form-control pull-left" id="stocks" val="" placeholder="请输入代码！使用,分隔"><button class="btn btn-default" id="add">添加</button>
+	</div>
+	<div class="listbox">
+
+	</div>
+	<table id="table" data-id-field="id">
+		<thead>
+			<tr>
+				<!-- <th data-field="state" data-checkbox="true" ></th> -->
+				<!-- <th data-field="id" data-switchable="false" data-sortable="true">全选</th> -->
+				<th data-field="name" >名称</th>
+				<th data-field="price" data-visible="true" data-sortable="true" data-sorter="priceSorter">价格</th>
+				<th data-field="closePrice"  data-sortable="true" data-sorter="priceSorter">昨收</th>
+			</tr>
+		</thead>
+	</table>
+</div>
+</body>
+</html>
