@@ -2,53 +2,62 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>首页</title>
+	<title>index</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 	<link href="css/bootstrap-table.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+
 	<script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap-table.js"></script>
 	<!--<script src="js/base.js"></script>-->
-    <script src="js/action.js"></script>
-	<script src="js/ui.js"></script>
+    <script src="js/ui.js"></script>
 </head>
 <body>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-12 col-md-12 header">
-
-dddd
+           <a class="brand" href="javascript:;"> chan' App</a>
         </div>
         <!--siderbar-->
         <div class="col-xs-2 col-md-2 siderbar">
-qqq
-
+            <ul class="nav">
+                <li class="active">
+                    <span class="glow"></span>
+                    <a class="accordion-toggle collapsed " data-toggle="collapse" href="#lichild">myApp</a>
+                    <ul id="lichild" class="collapse ">
+                        <li class="">
+                            <a href="">
+                                <i class="icon-hand-up"></i> Stock
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="">
+                                <i class="icon-hand-up"></i> Stock
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="">
+                                <i class="icon-hand-up"></i> Stock
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="">
+                                <i class="icon-hand-up"></i> Stock
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <span class="glow"></span>
+                    <a class="" href="stock.html">stock</a>
+                </li>
+            </ul>
         </div>
         <!--main-->
-        <div class="col-xs-10 col-md-10 main">
-            <div id="show">
-                <div class="addbox">
-                    <input type="text" class="form-control pull-left" id="stocks" val="" placeholder="请输入代码！使用,分隔"><button class="btn btn-default" id="add">添加</button>
-                </div>
-                <div class="listbox">
-
-                </div>
-                <div class="main">
-                    <table id="table" data-id-field="id">
-                        <thead>
-                        <tr>
-                            <!-- <th data-field="state" data-checkbox="true" ></th> -->
-                            <!-- <th data-field="id" data-switchable="false" data-sortable="true">全选</th> -->
-                            <th data-field="name" >名称</th>
-                            <th data-field="price" data-visible="true" data-sortable="true" data-sorter="priceSorter">价格</th>
-                            <th data-field="closePrice"  data-sortable="true" data-sorter="priceSorter">昨收</th>
-                        </tr>
-                        </thead>
-                    </table>
-                </div>
-            </div>
+        <div class="col-xs-10 col-xs-offset-2 col-md-10 col-md-offset-2 main">
+            sssssssasasasa
         </div>
     </div>
 </div>
