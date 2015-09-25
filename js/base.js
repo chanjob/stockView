@@ -12,20 +12,6 @@
 		{name: "datetimepicker", js: "kiss/js/bootstrap-datetimepicker.min.js", css: "kiss/css/bootstrap-datetimepicker.min.css"},
 		{name: "iDatetimePicker", js: "kiss/js/bootstrap-datetimepicker.new.min.js", css: "kiss/css/bootstrap-datetimepicker.new.min.css"}
 	];
-	var storage = {
-		"dxl-image-dev"       : "http://7xkx7q.com1.z0.glb.clouddn.com/",
-		"dxl-image-hunche-dev": "http://7xlugq.com1.z0.glb.clouddn.com/",
-		"dxl-audio-dev"       : "http://7xkx7x.media1.z0.glb.clouddn.com/",
-		"dxl-video-dev"       : "http://7xkx7r.media1.z0.glb.clouddn.com/",
-		"dxl-vframe-dev"      : "http://7xlctb.com1.z0.glb.clouddn.com/",
-		"dxl-binary-dev"      : "http://7xkx7n.dl1.z0.glb.clouddn.com/",
-		"dxl-image"           : "http://7xkptw.com2.z0.glb.qiniucdn.com/",
-		"dxl-image-hunche"    : "http://7xluhs.com2.z0.glb.qiniucdn.com/",
-		"dxl-audio"           : "http://7xkptf.media1.z0.glb.clouddn.com/",
-		"dxl-video"           : "http://7xkpu7.media1.z0.glb.clouddn.com/",
-		"dxl-vframe"          : "http://7xlct8.com2.z0.glb.qiniucdn.com/",
-		"dxl-binary"          : "http://7xkpto.dl1.z0.glb.clouddn.com/"
-	};
 	$.extend({
 		"logout": function() {
 			$.get("/index/logout", function(result){
@@ -458,21 +444,6 @@
 				}
 			}
 			return returnValue;
-		},
-		"cmsQiNiu": function(callback){
-			var js_cfg = [
-				{src: "kiss/js/plupload.full.min.js", state: false},
-				{src: "kiss/js/qiniu.ui.js", state: false},
-				{src: "kiss/js/qiniu.sdk.js", state: false}
-			];
-			$.each(js_cfg, function(index, item){
-				!item.state && $.getScript(dxlHttp.s4 + item.src, function(){
-					item.state = true;
-					if (js_cfg[0].state && js_cfg[1].state && js_cfg[2].state && $.isFunction(callback)) {
-						callback(storage);
-					}
-				});
-			});
 		},
 		"cmsPreformat": function(htmlStr){
 			return (htmlStr||"").replace(/\&/g,"&amp;").replace(/\</g, "&lt;").replace(/\>/g, "&gt;");
